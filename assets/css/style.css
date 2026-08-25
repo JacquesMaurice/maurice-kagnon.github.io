@@ -9,8 +9,8 @@ html {
 body {
   margin: 0;
   font-family: "Segoe UI", Arial, sans-serif;
-  background: #f7f8fa;
-  color: #202124;
+  background: #0b1120;
+  color: #e5e7eb;
   line-height: 1.7;
 }
 
@@ -39,11 +39,9 @@ body {
 
   text-align: center;
 
-  background: #ffffff;
-  border-right: 1px solid #e5e7eb;
+  background: #111827;
+  border-right: 1px solid #1f2937;
 }
-
-/* Photo */
 
 .profile-photo {
   width: 140px;
@@ -56,24 +54,20 @@ body {
   margin: 0 auto 22px;
 }
 
-/* Nom */
-
 .sidebar h1 {
   margin: 10px 0;
 
   font-size: 25px;
   font-weight: 700;
 
-  color: #111827;
+  color: #f9fafb;
 }
-
-/* Description */
 
 .sidebar p {
   margin-top: 10px;
 
   font-size: 14px;
-  color: #6b7280;
+  color: #9ca3af;
 }
 
 /* ========================================
@@ -102,7 +96,7 @@ body {
   font-size: 42px;
   line-height: 1.2;
 
-  color: #111827;
+  color: #f9fafb;
 }
 
 .content h2 {
@@ -111,7 +105,7 @@ body {
 
   font-size: 28px;
 
-  color: #111827;
+  color: #f9fafb;
 }
 
 .content h3 {
@@ -119,10 +113,8 @@ body {
 
   font-size: 20px;
 
-  color: #1f2937;
+  color: #f3f4f6;
 }
-
-/* Ligne décorative sous les grands titres */
 
 .content h2::after {
   content: "";
@@ -134,8 +126,20 @@ body {
 
   margin-top: 10px;
 
-  background: #2563eb;
+  background: #3b82f6;
   border-radius: 5px;
+}
+
+/* ========================================
+   TEXTE
+   ======================================== */
+
+.content p {
+  color: #cbd5e1;
+}
+
+.content strong {
+  color: #f3f4f6;
 }
 
 /* ========================================
@@ -143,7 +147,7 @@ body {
    ======================================== */
 
 .content a {
-  color: #2563eb;
+  color: #60a5fa;
 
   text-decoration: none;
 
@@ -151,6 +155,7 @@ body {
 }
 
 .content a:hover {
+  color: #93c5fd;
   text-decoration: underline;
 }
 
@@ -172,25 +177,28 @@ body {
 
   padding: 9px 15px;
 
-  border: 1px solid #e5e7eb;
+  border: 1px solid #374151;
   border-radius: 10px;
 
-  background: #ffffff;
+  background: #111827;
+
+  color: #dbeafe;
 
   font-size: 14px;
   font-weight: 500;
 
-  transition: transform 0.2s ease,
-              box-shadow 0.2s ease,
-              border-color 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .skills span:hover {
   transform: translateY(-3px);
 
-  border-color: #2563eb;
+  border-color: #3b82f6;
 
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
 }
 
 /* ========================================
@@ -210,10 +218,10 @@ body {
 .project-card {
   padding: 25px;
 
-  border: 1px solid #e5e7eb;
+  border: 1px solid #374151;
   border-radius: 14px;
 
-  background: #ffffff;
+  background: #111827;
 
   transition:
     transform 0.2s ease,
@@ -224,19 +232,21 @@ body {
 .project-card:hover {
   transform: translateY(-5px);
 
-  border-color: #bfdbfe;
+  border-color: #3b82f6;
 
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
 }
 
 .project-card h3 {
   margin-top: 0;
 
   font-size: 20px;
+
+  color: #f9fafb;
 }
 
 .project-card p {
-  color: #4b5563;
+  color: #cbd5e1;
 }
 
 .technologies {
@@ -244,10 +254,10 @@ body {
 
   font-weight: 700;
 
-  color: #2563eb !important;
+  color: #60a5fa !important;
 }
 
-/* Statut du projet */
+/* Statut des projets */
 
 .project-status {
   display: inline-block;
@@ -258,8 +268,9 @@ body {
 
   border-radius: 20px;
 
-  background: #eff6ff;
-  color: #2563eb;
+  background: #172554;
+
+  color: #93c5fd;
 
   font-size: 12px;
 
@@ -275,12 +286,12 @@ body {
 
   padding: 28px;
 
-  border: 1px solid #e5e7eb;
+  border: 1px solid #374151;
   border-radius: 14px;
 
-  background: #ffffff;
+  background: #111827;
 
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
 }
 
 .contact p {
@@ -288,7 +299,7 @@ body {
 }
 
 .contact a {
-  color: #2563eb;
+  color: #60a5fa;
 }
 
 /* ========================================
@@ -301,6 +312,8 @@ body {
 
 .content li {
   margin-bottom: 8px;
+
+  color: #cbd5e1;
 }
 
 /* ========================================
@@ -312,15 +325,63 @@ body {
 
   padding: 20px 25px;
 
-  border-left: 4px solid #2563eb;
+  border-left: 4px solid #3b82f6;
 
-  background: #ffffff;
+  background: #111827;
 
   border-radius: 0 10px 10px 0;
 
-  color: #4b5563;
+  color: #9ca3af;
 
   font-style: italic;
+}
+
+/* ========================================
+   BOUTONS
+   ======================================== */
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 12px;
+
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+
+  padding: 11px 20px;
+
+  border-radius: 8px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  text-decoration: none !important;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn-primary {
+  background: #2563eb;
+
+  color: #ffffff !important;
+}
+
+.btn-secondary {
+  background: #111827;
+
+  color: #60a5fa !important;
+
+  border: 1px solid #3b82f6;
 }
 
 /* ========================================
@@ -345,7 +406,7 @@ body {
     padding: 35px 20px;
 
     border-right: none;
-    border-bottom: 1px solid #e5e7eb;
+    border-bottom: 1px solid #1f2937;
   }
 
   .content {
