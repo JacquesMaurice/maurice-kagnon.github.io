@@ -4,13 +4,16 @@ layout: default
 
 # 👋 Bonjour, je suis Maurice KAGNON
 
-## Développeur web & passionné d'informatique
+## Développeur web & passionné par les technologies
 
-Bienvenue sur mon portfolio.
+Je transforme des idées en solutions numériques utiles.
 
-Je suis passionné par la programmation, le développement d'applications web et les technologies informatiques.
+Titulaire d'une Licence en **Système Informatique et Logiciel (SIL)**, je développe mes compétences dans le développement web, Python, les bases de données ainsi que les systèmes et réseaux.
 
-Mon objectif est de transformer des idées en solutions numériques utiles, modernes et accessibles.
+Je construis progressivement des projets concrets afin de devenir un développeur capable de concevoir des applications modernes, fiables et adaptées aux besoins réels.
+
+**🐍 Python · 🌐 Développement web · ⚙️ Laravel · 🗄️ MySQL · 🖥️ Systèmes & réseaux**
+
 
 ---
 
