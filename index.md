@@ -71,11 +71,55 @@ Mon objectif est de devenir un développeur polyvalent capable de comprendre un 
 
 ---
 
-### 🏗️ KALEX BTP — Site web professionnel
+---
 
-Projet de site web destiné à présenter les activités d'une entreprise spécialisée dans le **BTP et la topographie**.
+## 🚀 Mes projets
 
-L'objectif est de créer une présence en ligne claire et professionnelle permettant de présenter les services et les réalisations de l'entreprise.
+<div class="projects">
+
+<div class="project-card">
+
+<h3>📚 e-azɔmè</h3>
+
+<p>
+Application web de gestion des bulletins scolaires destinée aux écoles primaires privées.
+</p>
+
+<p class="technologies">
+PHP · Laravel · MySQL
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>💰 TontiPlus</h3>
+
+<p>
+Application web destinée à faciliter la gestion des tontines, des membres et des cotisations.
+</p>
+
+<p class="technologies">
+Laravel · MySQL · API REST
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>🏗️ KALEX BTP</h3>
+
+<p>
+Projet de site web professionnel destiné à présenter les activités d'une entreprise spécialisée dans le BTP et la topographie.
+</p>
+
+<p class="technologies">
+Web · BTP · Topographie
+</p>
+
+</div>
+
+</div>
 
 ---
 
