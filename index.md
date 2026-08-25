@@ -30,54 +30,44 @@ Mon objectif est de devenir un développeur polyvalent capable de comprendre un 
 
 ## 🛠️ Mes compétences
 
-### 💻 Développement
+### 💻 Développement web
 
-- 🐍 Python
-- 🐘 PHP
-- ⚡ JavaScript
-- 🌐 HTML
-- 🎨 CSS
-- ⚙️ Laravel
-- 🗄️ MySQL
+<div class="skills">
+
+<span>🐍 Python</span>
+<span>🐘 PHP</span>
+<span>⚡ JavaScript</span>
+<span>🌐 HTML</span>
+<span>🎨 CSS</span>
+<span>⚙️ Laravel</span>
+<span>🗄️ MySQL</span>
+
+</div>
 
 ### 🖥️ Systèmes & réseaux
 
-- 🪟 Windows Server
-- 🔐 Active Directory
-- 🌐 DNS
-- 📡 DHCP
-- ⚡ PowerShell
-- 💻 Virtualisation
+<div class="skills">
+
+<span>🪟 Windows Server</span>
+<span>🔐 Active Directory</span>
+<span>🌐 DNS</span>
+<span>📡 DHCP</span>
+<span>⚡ PowerShell</span>
+<span>💻 Virtualisation</span>
+
+</div>
 
 ### 🔧 Outils
 
-- 🔀 Git
-- 🐙 GitHub
-- 💻 Visual Studio Code
-- 📦 XAMPP
-- 🧩 Composer
+<div class="skills">
 
----
+<span>🔀 Git</span>
+<span>🐙 GitHub</span>
+<span>💻 VS Code</span>
+<span>📦 XAMPP</span>
+<span>🧩 Composer</span>
 
-## 🚀 Mes projets
-
-### 📚 e-azɔmè — Gestion des bulletins scolaires
-
-Application web conçue pour faciliter la gestion des bulletins scolaires dans les écoles primaires privées.
-
-Le projet permet notamment de gérer différents profils utilisateurs et de centraliser les informations scolaires.
-
-**Technologies :** PHP · Laravel · MySQL
-
----
-
-### 💰 TontiPlus — Gestion des tontines
-
-Projet d'application web destiné à faciliter la gestion des tontines et des cotisations.
-
-L'objectif est de permettre une meilleure organisation des membres, des cotisations et des opérations liées à une tontine.
-
-**Technologies :** Laravel · MySQL · API REST
+</div>
 
 ---
 
