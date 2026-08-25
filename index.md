@@ -168,11 +168,25 @@ Je souhaite notamment :
 ---
 
 ## 📫 Me contacter
+---
+
+## 📫 Me contacter
+
+<div class="contact">
+
+Vous souhaitez échanger avec moi autour d'un projet, d'une collaboration ou d'une opportunité ?
+
+N'hésitez pas à me contacter.
 
 📍 **Bénin**
 
+📧 **Email :** [jacquesmaurice101@gmail.com](mailto:jacquesmaurice101@gmail.com)
+
+💬 **WhatsApp :** [Me contacter sur WhatsApp](https://wa.me/2290195394597)
+
 💻 **GitHub :** [JacquesMaurice](https://github.com/JacquesMaurice)
 
----
+</div>
 
+---
 > 🚀 **Apprendre. Construire. Améliorer.**
