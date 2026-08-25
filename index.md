@@ -71,9 +71,6 @@ Mon objectif est de devenir un développeur polyvalent capable de comprendre un 
 
 ---
 
----
-
----
 
 ## 🚀 Mes projets
 
