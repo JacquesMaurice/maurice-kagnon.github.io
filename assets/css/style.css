@@ -15,21 +15,23 @@ body {
 
 .portfolio {
   display: flex;
+  align-items: flex-start;
   width: 100%;
   min-height: 100vh;
 }
 
 .sidebar {
-  width: 300px;
+  width: 280px;
+  min-width: 280px;
   min-height: 100vh;
-  padding: 40px 25px;
+  padding: 50px 25px;
   text-align: center;
   background: #f5f5f5;
 }
 
 .profile-photo {
-  width: 180px;
-  height: 180px;
+  width: 140px;
+  height: 140px;
   object-fit: cover;
   border-radius: 50%;
   display: block;
@@ -38,6 +40,7 @@ body {
 
 .sidebar h1 {
   margin: 10px 0;
+  font-size: 26px;
 }
 
 .sidebar p {
@@ -46,17 +49,22 @@ body {
 
 .content {
   flex: 1;
-  padding: 50px;
-  max-width: 900px;
+  padding: 50px 60px;
+  max-width: 950px;
   line-height: 1.7;
 }
 
 .content h1 {
   margin-top: 0;
+  font-size: 36px;
 }
 
 .content h2 {
   margin-top: 50px;
+}
+
+.content h3 {
+  margin-top: 30px;
 }
 
 @media (max-width: 768px) {
@@ -67,10 +75,16 @@ body {
 
   .sidebar {
     width: 100%;
+    min-width: auto;
     min-height: auto;
+    padding: 30px 20px;
   }
 
   .content {
     padding: 30px 20px;
+  }
+
+  .content h1 {
+    font-size: 30px;
   }
 }
