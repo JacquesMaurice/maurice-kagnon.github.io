@@ -164,3 +164,12 @@ body {
     grid-template-columns: 1fr;
   }
 }
+.project-status {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: #f1f1f1;
+  font-size: 12px;
+  font-weight: bold;
+}

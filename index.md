@@ -73,11 +73,15 @@ Mon objectif est de devenir un développeur polyvalent capable de comprendre un 
 
 ---
 
+---
+
 ## 🚀 Mes projets
 
 <div class="projects">
 
 <div class="project-card">
+
+<span class="project-status">📌 Projet personnel</span>
 
 <h3>📚 e-azɔmè</h3>
 
@@ -93,6 +97,8 @@ PHP · Laravel · MySQL
 
 <div class="project-card">
 
+<span class="project-status">🔨 En développement</span>
+
 <h3>💰 TontiPlus</h3>
 
 <p>
@@ -106,6 +112,8 @@ Laravel · MySQL · API REST
 </div>
 
 <div class="project-card">
+
+<span class="project-status">📌 Projet personnel</span>
 
 <h3>🏗️ KALEX BTP</h3>
 
