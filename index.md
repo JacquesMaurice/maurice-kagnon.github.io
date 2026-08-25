@@ -166,27 +166,39 @@ Je souhaite notamment :
 - continuer à apprendre à travers des projets concrets.
 
 ---
-
-## 📫 Me contacter
 ---
 
 ## 📫 Me contacter
-
-<div class="contact">
 
 Vous souhaitez échanger avec moi autour d'un projet, d'une collaboration ou d'une opportunité ?
 
 N'hésitez pas à me contacter.
 
-📍 **Bénin**
+<div class="contact">
 
-📧 **Email :** [jacquesmaurice101@gmail.com](mailto:jacquesmaurice101@gmail.com)
+<p>📍 <strong>Bénin</strong></p>
 
-💬 **WhatsApp :** [Me contacter sur WhatsApp](https://wa.me/2290195394597)
+<p>
+📧 <strong>Email :</strong>
+<a href="mailto:jacquesmaurice101@gmail.com">
+jacquesmaurice101@gmail.com
+</a>
+</p>
 
-💻 **GitHub :** [JacquesMaurice](https://github.com/JacquesMaurice)
+<p>
+💬 <strong>WhatsApp :</strong>
+<a href="https://wa.me/2290195394597" target="_blank">
++229 01 95 39 45 97
+</a>
+</p>
+
+<p>
+🐙 <strong>GitHub :</strong>
+<a href="https://github.com/JacquesMaurice" target="_blank">
+JacquesMaurice
+</a>
+</p>
 
 </div>
-
 ---
 > 🚀 **Apprendre. Construire. Améliorer.**

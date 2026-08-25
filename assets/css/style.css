@@ -180,11 +180,17 @@ body {
   padding: 25px;
   border-radius: 12px;
   background: #f8f9fa;
+  border: 1px solid #e1e1e1;
+}
+
+.contact p {
+  margin: 12px 0;
 }
 
 .contact a {
   font-weight: bold;
   text-decoration: none;
+  color: inherit;
 }
 
 .contact a:hover {
