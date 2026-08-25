@@ -164,10 +164,7 @@ Je souhaite notamment :
 - approfondir mes connaissances en systèmes et réseaux ;
 - construire et déployer des applications professionnelles ;
 - continuer à apprendre à travers des projets concrets.
-
 ---
----
-
 ## 📫 Me contacter
 
 Vous souhaitez échanger avec moi autour d'un projet, d'une collaboration ou d'une opportunité ?
