@@ -3,22 +3,32 @@
 
 @import "{{ site.theme }}";
 
-html,
-body {
-  min-height: 100%;
+/* Permettre le défilement normal */
+html {
   overflow-y: auto;
 }
 
-header {
-  position: static !important;
+body {
+  overflow-y: auto;
 }
 
+/* Colonne de gauche */
+header {
+  position: static !important;
+  width: 100% !important;
+  float: none !important;
+}
+
+/* Contenu principal */
 section {
+  width: 100% !important;
+  float: none !important;
+  position: static !important;
   min-height: auto !important;
-  height: auto !important;
   overflow: visible !important;
 }
 
+/* Photo */
 header img {
   width: 180px;
   height: 180px;
