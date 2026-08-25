@@ -1,7 +1,6 @@
-
-
 title: "Maurice KAGNON"
 logo: "/assets/images/photo.jpg"
 description: "Développeur web | Python | Laravel | Systèmes informatiques"
 theme: jekyll-theme-minimal
 lang: fr
+markdown: kramdown
