@@ -1,42 +1,47 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
 
   const sections = document.querySelectorAll(
     ".content h1[id], .content h2[id]"
   );
 
-  const menuLinks = document.querySelectorAll(
+  const links = document.querySelectorAll(
     ".sidebar-nav a"
   );
 
-  function updateActiveMenu() {
+  const observer = new IntersectionObserver(
+    (entries) => {
 
-    let currentSection = "";
+      entries.forEach((entry) => {
 
-    sections.forEach(section => {
+        if (entry.isIntersecting) {
 
-      const sectionTop = section.getBoundingClientRect().top;
+          const id = entry.target.getAttribute("id");
 
-      if (sectionTop <= 150) {
-        currentSection = section.getAttribute("id");
-      }
+          links.forEach((link) => {
+            link.classList.remove("active");
+          });
 
-    });
+          const activeLink = document.querySelector(
+            '.sidebar-nav a[href="#' + id + '"]'
+          );
 
-    menuLinks.forEach(link => {
+          if (activeLink) {
+            activeLink.classList.add("active");
+          }
+        }
 
-      link.classList.remove("active");
+      });
 
-      const linkTarget = link.getAttribute("href");
+    },
+    {
+      root: null,
+      threshold: 0.1,
+      rootMargin: "-100px 0px -60% 0px"
+    }
+  );
 
-      if (linkTarget === "#" + currentSection) {
-        link.classList.add("active");
-      }
-
-    });
-  }
-
-  window.addEventListener("scroll", updateActiveMenu);
-
-  updateActiveMenu();
+  sections.forEach((section) => {
+    observer.observe(section);
+  });
 
 });
