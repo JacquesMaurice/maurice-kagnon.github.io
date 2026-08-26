@@ -700,3 +700,132 @@ body {
   }
 
 }
+/* ========================================
+   FORMATION
+   ======================================== */
+
+.formation-card {
+  display: flex;
+  gap: 22px;
+
+  padding: 25px;
+
+  background: #111827;
+
+  border: 1px solid #374151;
+  border-radius: 14px;
+
+  transition: 0.2s ease;
+}
+
+.formation-card:hover {
+  transform: translateY(-4px);
+
+  border-color: #3b82f6;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.formation-icon {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 55px;
+  min-width: 55px;
+  height: 55px;
+
+  border-radius: 12px;
+
+  background: #172554;
+
+  font-size: 26px;
+}
+
+.formation-content h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.formation-status {
+  color: #60a5fa;
+
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.formation-school {
+  color: #93c5fd !important;
+  font-weight: 600;
+}
+
+
+/* ========================================
+   APPRENTISSAGE
+   ======================================== */
+
+.learning-section {
+  display: grid;
+
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  gap: 18px;
+
+  margin-top: 25px;
+}
+
+.learning-card {
+  padding: 22px;
+
+  background: #111827;
+
+  border: 1px solid #374151;
+  border-radius: 14px;
+
+  transition: 0.2s ease;
+}
+
+.learning-card:hover {
+  transform: translateY(-4px);
+
+  border-color: #3b82f6;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.learning-card > span {
+  font-size: 26px;
+}
+
+.learning-card h3 {
+  margin: 12px 0 8px;
+
+  color: #f9fafb;
+}
+
+.learning-card p {
+  margin: 0;
+
+  font-size: 14px;
+
+  color: #9ca3af;
+}
+
+
+/* ========================================
+   MOBILE
+   ======================================== */
+
+@media (max-width: 768px) {
+
+  .learning-section {
+    grid-template-columns: 1fr;
+  }
+
+  .formation-card {
+    flex-direction: column;
+  }
+
+}

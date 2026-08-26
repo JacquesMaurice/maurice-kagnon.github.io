@@ -206,26 +206,75 @@ J'aime apprendre par la pratique, expérimenter de nouvelles technologies et tra
 
 <h2 id="formation">🎓 Formation</h2>
 
-### Licence — Système Informatique et Logiciel (SIL)
+<div class="formation-card">
 
-**Institut Universitaire Les Cours Sonou**
+  <div class="formation-icon">
+    🎓
+  </div>
 
-Formation orientée vers les systèmes informatiques, le développement logiciel, les bases de données et les technologies web.
+  <div class="formation-content">
 
----
+    <span class="formation-status">
+      Formation obtenue
+    </span>
 
-## 📈 Actuellement en apprentissage
+    <h3>Licence — Système Informatique et Logiciel (SIL)</h3>
 
-Je continue actuellement à développer mes compétences dans plusieurs domaines :
+    <p class="formation-school">
+      Institut Universitaire Les Cours Sonou
+    </p>
 
-- 🐍 Approfondissement de Python
-- 🌐 Développement web
-- 🤖 Automatisation avec l'intelligence artificielle
-- 🗄️ Bases de données
-- 🖥️ Systèmes et réseaux
-- 🔧 Git et gestion de projets
-- 🚀 Conception d'applications professionnelles
+    <p>
+      Formation orientée vers les systèmes informatiques, le développement
+      logiciel, les bases de données et les technologies web.
+    </p>
 
+  </div>
+
+</div>
+
+
+<h2 id="apprentissage">📈 Actuellement en apprentissage</h2>
+
+<div class="learning-section">
+
+  <div class="learning-card">
+    <span>🐍</span>
+    <h3>Python</h3>
+    <p>Approfondissement de la programmation et développement de projets concrets.</p>
+  </div>
+
+  <div class="learning-card">
+    <span>🌐</span>
+    <h3>Développement web</h3>
+    <p>Renforcement de mes compétences dans la conception d'applications web.</p>
+  </div>
+
+  <div class="learning-card">
+    <span>🤖</span>
+    <h3>Automatisation & IA</h3>
+    <p>Découverte et développement de solutions utilisant l'intelligence artificielle.</p>
+  </div>
+
+  <div class="learning-card">
+    <span>🖥️</span>
+    <h3>Systèmes & réseaux</h3>
+    <p>Approfondissement de Windows Server, des réseaux et de la virtualisation.</p>
+  </div>
+
+  <div class="learning-card">
+    <span>🗄️</span>
+    <h3>Bases de données</h3>
+    <p>Amélioration de mes connaissances en gestion et conception de bases de données.</p>
+  </div>
+
+  <div class="learning-card">
+    <span>🔧</span>
+    <h3>Git & projets</h3>
+    <p>Amélioration de mes pratiques de versionnement et de gestion de projets.</p>
+  </div>
+
+</div>
 ---
 
 <h2 id="objectifs">🎯 Mes objectifs</h2>
