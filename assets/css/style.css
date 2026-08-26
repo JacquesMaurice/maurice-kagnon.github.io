@@ -530,3 +530,18 @@ body {
     font-size: 13px;
   }
 }
+/* ========================================
+   MENU ACTIF
+   ======================================== */
+
+.sidebar-nav a.active {
+  background: #172554;
+  color: #60a5fa;
+  border-left: 3px solid #3b82f6;
+  padding-left: 7px;
+}
+
+.sidebar-nav a.active:hover {
+  background: #1e3a8a;
+  color: #93c5fd;
+}
