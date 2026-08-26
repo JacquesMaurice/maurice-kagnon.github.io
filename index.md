@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# 👋 Bonjour, je suis Maurice KAGNON
+<h1 id="accueil">👋 Hello, je suis Maurice KAGNON</h1>
 
 ## Développeur web & passionné par les technologies
 
@@ -27,7 +27,7 @@ J'aime apprendre par la pratique, expérimenter de nouvelles technologies et tra
 
 ---
 
-## 👨‍💻 À propos de moi
+<h2 id="a-propos">👨‍💻 À propos de moi</h2>
 
 Je suis un passionné d'informatique avec une formation en **Système Informatique et Logiciel**.
 
@@ -39,7 +39,7 @@ Mon objectif est de devenir un développeur polyvalent capable de comprendre un 
 
 ---
 
-## 🛠️ Mes compétences
+<h2 id="competence">🛠️ Mes compétences</h2>
 
 ### 💻 Développement web
 
@@ -83,7 +83,7 @@ Mon objectif est de devenir un développeur polyvalent capable de comprendre un 
 ---
 
 
-## 🚀 Mes projets
+<h2 id= "mes-projets">🚀 Mes projets</h2>
 
 <div class="projects">
 
@@ -139,7 +139,7 @@ Web · BTP · Topographie
 
 ---
 
-## 🎓 Formation
+<h2 id="formation">🎓 Formation</h2>
 
 ### Licence — Système Informatique et Logiciel (SIL)
 
@@ -163,7 +163,7 @@ Je continue actuellement à développer mes compétences dans plusieurs domaines
 
 ---
 
-## 🎯 Mes objectifs
+<h2 id="objectifs">🎯 Mes objectifs</h2>
 
 Mon objectif est de devenir un développeur capable de concevoir des solutions informatiques **concrètes, utiles et professionnelles**.
 
@@ -176,7 +176,7 @@ Je souhaite notamment :
 - construire et déployer des applications professionnelles ;
 - continuer à apprendre à travers des projets concrets.
 ---
-## 📫 Me contacter
+<h2 id="me-contacter">📫 Me contacter</h2>
 
 Vous souhaitez échanger avec moi autour d'un projet, d'une collaboration ou d'une opportunité ?
 
