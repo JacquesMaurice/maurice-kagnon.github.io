@@ -29,14 +29,56 @@ J'aime apprendre par la pratique, expérimenter de nouvelles technologies et tra
 
 <h2 id="a-propos">👨‍💻 À propos de moi</h2>
 
-Je suis un passionné d'informatique avec une formation en **Système Informatique et Logiciel**.
+<div class="about-section">
 
-Mon parcours m'a permis d'explorer plusieurs domaines de l'informatique, notamment le développement d'applications web, la gestion des bases de données, les systèmes informatiques et les réseaux.
+  <div class="about-intro">
+    <h3>Bonjour, moi c'est Maurice 👋</h3>
 
-Aujourd'hui, je me concentre sur le renforcement de mes compétences à travers la pratique, la réalisation de projets personnels et l'apprentissage continu.
+    <p>
+      Je suis un passionné d'informatique et de technologies numériques,
+      titulaire d'une Licence en <strong>Système Informatique et Logiciel (SIL)</strong>.
+    </p>
 
-Mon objectif est de devenir un développeur polyvalent capable de comprendre un besoin, concevoir une solution et la transformer en une application fonctionnelle.
+    <p>
+      Mon parcours m'a permis de découvrir différents domaines de
+      l'informatique, notamment le développement web, les bases de données,
+      les systèmes informatiques et les réseaux.
+    </p>
 
+    <p>
+      Aujourd'hui, je me concentre particulièrement sur le développement
+      d'applications web et sur l'apprentissage de <strong>Python</strong>.
+      Je privilégie la pratique et la réalisation de projets concrets
+      pour renforcer progressivement mes compétences.
+    </p>
+
+    <p>
+      Je m'intéresse également aux technologies liées aux systèmes et réseaux,
+      notamment <strong>Windows Server, Active Directory, DNS, DHCP,
+      PowerShell et la virtualisation</strong>.
+    </p>
+  </div>
+
+
+  <div class="about-goal">
+
+    <h3>🎯 Ma vision</h3>
+
+    <p>
+      Mon objectif est de devenir un développeur polyvalent capable de
+      transformer une idée en une solution numérique fonctionnelle,
+      moderne et adaptée aux besoins réels.
+    </p>
+
+    <p>
+      Je souhaite continuer à apprendre, construire des projets,
+      améliorer mes méthodes de travail et développer progressivement
+      des solutions professionnelles.
+    </p>
+
+  </div>
+
+</div>
 ---
 
 <h2 id="competences">🛠️ Mes compétences</h2>

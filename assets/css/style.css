@@ -547,3 +547,67 @@ body {
   border-left: 3px solid #3b82f6;
   padding-left: 7px;
 }
+/* ========================================
+   SECTION À PROPOS
+   ======================================== */
+
+.about-section {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+
+  gap: 22px;
+
+  margin-top: 25px;
+}
+
+.about-intro,
+.about-goal {
+  padding: 25px;
+
+  background: #111827;
+
+  border: 1px solid #374151;
+  border-radius: 14px;
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.about-intro:hover,
+.about-goal:hover {
+  transform: translateY(-3px);
+
+  border-color: #3b82f6;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.about-intro h3,
+.about-goal h3 {
+  margin-top: 0;
+
+  color: #f9fafb;
+}
+
+.about-section p {
+  color: #cbd5e1;
+}
+
+.about-section strong {
+  color: #60a5fa;
+}
+
+
+/* ========================================
+   À PROPOS — MOBILE
+   ======================================== */
+
+@media (max-width: 768px) {
+
+  .about-section {
+    grid-template-columns: 1fr;
+  }
+
+}
