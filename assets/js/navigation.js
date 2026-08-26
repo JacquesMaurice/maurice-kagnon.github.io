@@ -1,7 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
 
   const menuLinks = document.querySelectorAll(".sidebar-nav a");
-  const sections = document.querySelectorAll(".content h1[id], .content h2[id]");
+  const sections = document.querySelectorAll(
+    ".content h1[id], .content h2[id]"
+  );
 
   function updateActiveMenu() {
 
