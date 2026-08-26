@@ -13,6 +13,17 @@ Titulaire d'une **Licence en Système Informatique et Logiciel (SIL)**, je déve
 J'aime apprendre par la pratique, expérimenter de nouvelles technologies et transformer mes connaissances en projets concrets.
 
 **🐍 Python · 🌐 Développement web · ⚙️ Laravel · 🗄️ MySQL · 🖥️ Systèmes & réseaux**
+<div class="hero-buttons">
+
+<a href="#mes-projets" class="btn btn-primary">
+🚀 Voir mes projets
+</a>
+
+<a href="#me-contacter" class="btn btn-secondary">
+📫 Me contacter
+</a>
+
+</div>
 
 ---
 

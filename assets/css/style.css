@@ -434,3 +434,15 @@ body {
     font-size: 13px;
   }
 }
+.content blockquote:first-of-type {
+  margin: 25px 0;
+  padding: 12px 18px;
+
+  border-left: 3px solid #3b82f6;
+
+  background: #111827;
+
+  color: #93c5fd;
+
+  border-radius: 0 8px 8px 0;
+}
