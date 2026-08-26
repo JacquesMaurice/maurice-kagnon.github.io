@@ -24,7 +24,7 @@ body {
 }
 
 /* ========================================
-   COLONNE GAUCHE
+   COLONNE GAUCHE FIXE
    ======================================== */
 
 .sidebar {
@@ -35,39 +35,100 @@ body {
   min-width: 280px;
   height: 100vh;
 
-  padding: 50px 25px;
+  padding: 28px 20px;
 
   text-align: center;
 
   background: #111827;
   border-right: 1px solid #1f2937;
+
+  overflow: hidden;
 }
 
+/* ========================================
+   PHOTO
+   ======================================== */
+
 .profile-photo {
-  width: 140px;
-  height: 140px;
+  width: 115px;
+  height: 115px;
 
   object-fit: cover;
   border-radius: 50%;
 
   display: block;
-  margin: 0 auto 22px;
+  margin: 0 auto 12px;
 }
 
-.sidebar h1 {
-  margin: 10px 0;
+/* ========================================
+   NOM
+   ======================================== */
 
-  font-size: 25px;
+.sidebar h1 {
+  margin: 5px 0;
+
+  font-size: 23px;
   font-weight: 700;
 
   color: #f9fafb;
 }
 
-.sidebar p {
+/* ========================================
+   RÔLE
+   ======================================== */
+
+.sidebar-role {
+  margin: 5px 0 18px;
+
+  color: #60a5fa !important;
+
+  font-size: 12px !important;
+  font-weight: 600;
+
+  line-height: 1.4;
+}
+
+/* ========================================
+   NAVIGATION
+   ======================================== */
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+
+  gap: 3px;
+
   margin-top: 10px;
 
-  font-size: 14px;
+  text-align: left;
+}
+
+.sidebar-nav a {
+  display: block;
+
+  padding: 7px 10px;
+
+  border-radius: 7px;
+
   color: #9ca3af;
+
+  font-size: 13px;
+  font-weight: 500;
+
+  text-decoration: none;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.sidebar-nav a:hover {
+  background: #172554;
+
+  color: #60a5fa;
+
+  transform: translateX(3px);
 }
 
 /* ========================================
@@ -257,7 +318,9 @@ body {
   color: #60a5fa !important;
 }
 
-/* Statut des projets */
+/* ========================================
+   STATUT PROJET
+   ======================================== */
 
 .project-status {
   display: inline-block;
@@ -317,26 +380,6 @@ body {
 }
 
 /* ========================================
-   CITATION FINALE
-   ======================================== */
-
-.content blockquote {
-  margin: 60px 0 20px;
-
-  padding: 20px 25px;
-
-  border-left: 4px solid #3b82f6;
-
-  background: #111827;
-
-  border-radius: 0 10px 10px 0;
-
-  color: #9ca3af;
-
-  font-style: italic;
-}
-
-/* ========================================
    BOUTONS
    ======================================== */
 
@@ -385,6 +428,24 @@ body {
 }
 
 /* ========================================
+   CITATION
+   ======================================== */
+
+.content blockquote {
+  margin: 25px 0;
+
+  padding: 12px 18px;
+
+  border-left: 3px solid #3b82f6;
+
+  background: #111827;
+
+  color: #93c5fd;
+
+  border-radius: 0 8px 8px 0;
+}
+
+/* ========================================
    MOBILE
    ======================================== */
 
@@ -394,23 +455,43 @@ body {
     display: block;
   }
 
- .sidebar {
-  position: sticky;
-  top: 0;
+  .sidebar {
+    position: relative;
 
-  width: 280px;
-  min-width: 280px;
-  height: 100vh;
+    width: 100%;
+    min-width: auto;
 
-  padding: 35px 20px;
+    height: auto;
+    min-height: auto;
 
-  text-align: center;
+    padding: 30px 20px;
 
-  background: #111827;
-  border-right: 1px solid #1f2937;
+    overflow: visible;
 
-  overflow-y: auto;
-}
+    border-right: none;
+    border-bottom: 1px solid #1f2937;
+  }
+
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .sidebar-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 5px;
+
+    text-align: center;
+  }
+
+  .sidebar-nav a {
+    font-size: 12px;
+  }
+
   .content {
     width: 100%;
     max-width: none;
@@ -435,86 +516,4 @@ body {
   .skills span {
     font-size: 13px;
   }
-}
-.content blockquote:first-of-type {
-  margin: 25px 0;
-  padding: 12px 18px;
-
-  border-left: 3px solid #3b82f6;
-
-  background: #111827;
-
-  color: #93c5fd;
-
-  border-radius: 0 8px 8px 0;
-}
-/* ========================================
-   NAVIGATION
-   ======================================== */
-
-.sidebar-nav {
-  display: flex;
-  flex-direction: column;
-
-  gap: 6px;
-
-  margin-top: 35px;
-
-  text-align: left;
-}
-
-.sidebar-nav a {
-  display: block;
-
-  padding: 9px 12px;
-
-  border-radius: 8px;
-
-  color: #9ca3af;
-
-  font-size: 14px;
-  font-weight: 500;
-
-  text-decoration: none;
-
-  transition:
-    background 0.2s ease,
-    color 0.2s ease,
-    transform 0.2s ease;
-}
-
-.sidebar-nav a:hover {
-  background: #172554;
-
-  color: #60a5fa;
-
-  transform: translateX(3px);
-}
-
-/* Navigation sur mobile */
-
-@media (max-width: 768px) {
-
-  .sidebar-nav {
-    flex-direction: row;
-    flex-wrap: wrap;
-
-    justify-content: center;
-
-    margin-top: 25px;
-  }
-
-  .sidebar-nav a {
-    font-size: 13px;
-  }
-}
-.sidebar-role {
-  margin: 8px 0 0;
-
-  color: #60a5fa !important;
-
-  font-size: 13px !important;
-  font-weight: 600;
-
-  line-height: 1.5;
 }
