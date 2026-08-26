@@ -83,57 +83,68 @@ Mon objectif est de devenir un développeur polyvalent capable de comprendre un 
 ---
 
 
-<h2 id= "mes-projets">🚀 Mes projets</h2>
+<h2 id="mes-projets">🚀 Mes projets</h2>
 
 <div class="projects">
 
-<div class="project-card">
+  <div class="project-card">
 
-<span class="project-status">📌 Projet personnel</span>
+    <span class="project-status">
+      🟡 Projet en développement
+    </span>
 
-<h3>📚 e-azɔmè</h3>
+    <h3>📚 e-azɔmè</h3>
 
-<p>
-Application web de gestion des bulletins scolaires destinée aux écoles primaires privées.
-</p>
+    <p>
+      Application web de gestion des bulletins scolaires
+      destinée aux écoles primaires privées.
+    </p>
 
-<p class="technologies">
-PHP · Laravel · MySQL
-</p>
+    <p class="technologies">
+      PHP · Laravel · MySQL
+    </p>
 
-</div>
+  </div>
 
-<div class="project-card">
 
-<span class="project-status">🔨 En développement</span>
+  <div class="project-card">
 
-<h3>💰 TontiPlus</h3>
+    <span class="project-status">
+      🟡 Projet en développement
+    </span>
 
-<p>
-Application web destinée à faciliter la gestion des tontines, des membres et des cotisations.
-</p>
+    <h3>💰 TontiPlus</h3>
 
-<p class="technologies">
-Laravel · MySQL · API REST
-</p>
+    <p>
+      Application web destinée à faciliter la gestion
+      des tontines, des membres et des cotisations.
+    </p>
 
-</div>
+    <p class="technologies">
+      Laravel · MySQL · API REST
+    </p>
 
-<div class="project-card">
+  </div>
 
-<span class="project-status">📌 Projet personnel</span>
 
-<h3>🏗️ KALEX BTP</h3>
+  <div class="project-card">
 
-<p>
-Projet de site web professionnel destiné à présenter les activités d'une entreprise spécialisée dans le BTP et la topographie.
-</p>
+    <span class="project-status">
+      🟡 Projet en développement
+    </span>
 
-<p class="technologies">
-Web · BTP · Topographie
-</p>
+    <h3>🏗️ KALEX BTP</h3>
 
-</div>
+    <p>
+      Projet de site web destiné à présenter les activités
+      d'une entreprise spécialisée dans le BTP et la topographie.
+    </p>
+
+    <p class="technologies">
+      Web · BTP · Topographie
+    </p>
+
+  </div>
 
 </div>
 
