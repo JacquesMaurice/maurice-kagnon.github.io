@@ -394,21 +394,23 @@ body {
     display: block;
   }
 
-  .sidebar {
-    position: relative;
+ .sidebar {
+  position: sticky;
+  top: 0;
 
-    width: 100%;
-    min-width: auto;
+  width: 280px;
+  min-width: 280px;
+  height: 100vh;
 
-    height: auto;
-    min-height: auto;
+  padding: 35px 20px;
 
-    padding: 35px 20px;
+  text-align: center;
 
-    border-right: none;
-    border-bottom: 1px solid #1f2937;
-  }
+  background: #111827;
+  border-right: 1px solid #1f2937;
 
+  overflow-y: auto;
+}
   .content {
     width: 100%;
     max-width: none;
