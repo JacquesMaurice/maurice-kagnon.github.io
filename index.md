@@ -83,42 +83,54 @@ J'aime apprendre par la pratique, expérimenter de nouvelles technologies et tra
 
 <h2 id="competences">🛠️ Mes compétences</h2>
 
-### 💻 Développement web
+<div class="skills-section">
 
-<div class="skills">
+  <div class="skill-card">
 
-<span>🐍 Python</span>
-<span>🐘 PHP</span>
-<span>⚡ JavaScript</span>
-<span>🌐 HTML</span>
-<span>🎨 CSS</span>
-<span>⚙️ Laravel</span>
-<span>🗄️ MySQL</span>
+    <h3>💻 Développement</h3>
 
-</div>
+    <div class="skill-tags">
+      <span>🐍 Python</span>
+      <span>PHP</span>
+      <span>JavaScript</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Laravel</span>
+      <span>MySQL</span>
+    </div>
 
-### 🖥️ Systèmes & réseaux
+  </div>
 
-<div class="skills">
 
-<span>🪟 Windows Server</span>
-<span>🔐 Active Directory</span>
-<span>🌐 DNS</span>
-<span>📡 DHCP</span>
-<span>⚡ PowerShell</span>
-<span>💻 Virtualisation</span>
+  <div class="skill-card">
 
-</div>
+    <h3>🖥️ Systèmes & Réseaux</h3>
 
-### 🔧 Outils
+    <div class="skill-tags">
+      <span>Windows Server</span>
+      <span>Active Directory</span>
+      <span>DNS</span>
+      <span>DHCP</span>
+      <span>PowerShell</span>
+      <span>Virtualisation</span>
+    </div>
 
-<div class="skills">
+  </div>
 
-<span>🔀 Git</span>
-<span>🐙 GitHub</span>
-<span>💻 VS Code</span>
-<span>📦 XAMPP</span>
-<span>🧩 Composer</span>
+
+  <div class="skill-card">
+
+    <h3>🔧 Outils</h3>
+
+    <div class="skill-tags">
+      <span>Git</span>
+      <span>GitHub</span>
+      <span>VS Code</span>
+      <span>XAMPP</span>
+      <span>Composer</span>
+    </div>
+
+  </div>
 
 </div>
 

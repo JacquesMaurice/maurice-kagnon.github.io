@@ -611,3 +611,88 @@ body {
   }
 
 }
+/* ========================================
+   COMPÉTENCES
+   ======================================== */
+
+.skills-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+  margin-top: 25px;
+}
+
+.skill-card {
+  padding: 25px;
+
+  background: #111827;
+
+  border: 1px solid #374151;
+  border-radius: 14px;
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+
+  border-color: #3b82f6;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.skill-card h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  color: #f9fafb;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.skill-tags span {
+  padding: 7px 11px;
+
+  background: #172033;
+
+  border: 1px solid #374151;
+  border-radius: 8px;
+
+  color: #cbd5e1;
+
+  font-size: 13px;
+  font-weight: 500;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.skill-tags span:hover {
+  background: #172554;
+
+  border-color: #3b82f6;
+
+  color: #60a5fa;
+}
+
+
+/* ========================================
+   COMPÉTENCES — MOBILE
+   ======================================== */
+
+@media (max-width: 768px) {
+
+  .skills-section {
+    grid-template-columns: 1fr;
+  }
+
+}
