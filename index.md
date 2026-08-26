@@ -39,7 +39,7 @@ Mon objectif est de devenir un développeur polyvalent capable de comprendre un 
 
 ---
 
-<h2 id="competence">🛠️ Mes compétences</h2>
+<h2 id="competences">🛠️ Mes compétences</h2>
 
 ### 💻 Développement web
 
